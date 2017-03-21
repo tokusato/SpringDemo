@@ -16,5 +16,14 @@ public class DemoApplication {
 	      Apple obj = (Apple) context.getBean("apple1");
 	      System.out.println(obj.getPrice());
 
+	      int a = 1;
+	      int b = 1;
+	      int sum = new DemoApplication().add(a,b);
+
 	}
+
+	int add(int a, int b) {
+		return a + b;
+	}
+
 }
